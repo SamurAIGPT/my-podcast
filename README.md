@@ -4,7 +4,7 @@
 
 ## 🌐 Try the Live Engine
 
-**Hosted Demo:** [my-podcast.vercel.app](https://my-podcast.vercel.app)
+**Hosted Demo:** [my-podcast-iota.vercel.app](https://my-podcast-iota.vercel.app/)
 
 Experience the full dark-mode, responsive interface. Sign in with Google to explore the Narration Studio, advanced parameter sliders, 470+ voice selection, and credit tiers directly from your browser.
 
@@ -54,7 +54,7 @@ To successfully deploy and run, populate the following environment variables in 
 | **Database**          | `DATABASE_URL`                       | PostgreSQL connection string ([Supabase](https://supabase.com) or [Neon](https://neon.tech)) |
 |                       | `DIRECT_URL`                         | Direct DB connection for Prisma migrations                                                   |
 | **NextAuth / Google** | `NEXTAUTH_SECRET`                    | Secure random string generated via `openssl rand -base64 32`                                 |
-|                       | `NEXTAUTH_URL`                       | Your production domain (e.g. `https://my-podcast.vercel.app`)                                |
+|                       | `NEXTAUTH_URL`                       | Your production domain (e.g. `https://my-podcast-iota.vercel.app`)                            |
 |                       | `GOOGLE_CLIENT_ID`                   | Get from [Google Cloud Console](https://console.cloud.google.com/apis/credentials)           |
 |                       | `GOOGLE_CLIENT_SECRET`               | Get from [Google Cloud Console](https://console.cloud.google.com/apis/credentials)           |
 | **Stripe Billing**    | `STRIPE_SECRET_KEY`                  | Get from [Stripe Dashboard](https://dashboard.stripe.com/apikeys)                            |
