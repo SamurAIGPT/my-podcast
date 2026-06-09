@@ -1,4 +1,5 @@
 const config = {
+  appName: "My Podcast",
   auth: {
     google: {
       clientId: process.env.GOOGLE_CLIENT_ID,
