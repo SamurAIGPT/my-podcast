@@ -4,6 +4,7 @@
 
 **Tech stack:** Next.js 14 (App Router) · Prisma · PostgreSQL · NextAuth (Google OAuth) · Stripe · Tailwind CSS · MuAPI · MiniMax Speech 2.6
 **Use cases:** Podcast creators · YouTube voiceovers · Audiobook narration · E-learning content · Video ad voiceovers · News readers · Language learning apps · Accessibility tools
+https://github.com/user-attachments/assets/b3ebb885-56de-4a80-9138-3370e0f10596
 
 ## 🌐 Try the Live Engine
 
