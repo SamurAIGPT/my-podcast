@@ -461,12 +461,9 @@ export default function StudioPage() {
 
   const pollPodcastResult = async (id) => {
     let completed = false;
-    let attempts = 0;
-    const maxAttempts = 20;
 
-    while (!completed && attempts < maxAttempts) {
+    while (!completed) {
       await new Promise((resolve) => setTimeout(resolve, 2500));
-      attempts++;
 
       try {
         const res = await fetch(`/api/podcasts?id=${id}`);
@@ -489,13 +486,6 @@ export default function StudioPage() {
       } catch (err) {
         console.error("Polling error:", err);
       }
-    }
-
-    if (!completed) {
-      setGeneratingError(
-        "Generation is taking longer than usual. It will complete in the background and show in your studio history.",
-      );
-      setGeneratingStatus("error");
     }
   };
 
